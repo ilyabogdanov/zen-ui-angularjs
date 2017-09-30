@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`directive: zen-horizontal-menu with accurate width should render 1`] = `
+<div
+  class="zen_ui__horizontal_menu ng-scope"
+  zen-height="::'100%'"
+>
+  <div
+    class="zen_ui__horizontal_layout"
+    ng-transclude=""
+    style="height: 100%"
+  >
+    <div
+      class="zen_ui__horizontal_layout_column ng-scope ng-isolate-scope"
+      ng-style="outerStyle"
+      style="width: 10%;"
+      zen-width="::'10%'"
+    >
+      <div
+        ng-style="innerStyle"
+      >
+        <div
+          ng-transclude=""
+        />
+      </div>
+    </div>
+    <div
+      class="zen_ui__horizontal_layout_column ng-scope ng-isolate-scope"
+      ng-style="outerStyle"
+      style="width: 80%;"
+      zen-width="::'80%'"
+    >
+      <div
+        ng-style="innerStyle"
+      >
+        <div
+          ng-transclude=""
+        />
+      </div>
+    </div>
+    <div
+      class="zen_ui__horizontal_layout_column ng-scope ng-isolate-scope"
+      ng-style="outerStyle"
+      style="width: 5%;"
+      zen-width="::5"
+    >
+      <div
+        ng-style="innerStyle"
+      >
+        <div
+          ng-transclude=""
+        />
+      </div>
+    </div>
+    <div
+      class="zen_ui__horizontal_layout_column ng-scope ng-isolate-scope"
+      ng-style="outerStyle"
+      style="width: 5%;"
+      zen-width="::5"
+    >
+      <div
+        ng-style="innerStyle"
+      >
+        <div
+          ng-transclude=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`directive: zen-horizontal-menu with only ratio columns should render 1`] = `
+<div
+  class="zen_ui__horizontal_menu ng-scope"
+  zen-height="::'100%'"
+>
+  <div
+    class="zen_ui__horizontal_layout"
+    ng-transclude=""
+    style="height: 100%"
+  >
+    <div
+      class="zen_ui__horizontal_layout_column ng-scope ng-isolate-scope"
+      ng-style="outerStyle"
+      style="width: 33.33%;"
+      zen-width="::1"
+    >
+      <div
+        ng-style="innerStyle"
+      >
+        <div
+          ng-transclude=""
+        />
+      </div>
+    </div>
+    <div
+      class="zen_ui__horizontal_layout_column ng-scope ng-isolate-scope"
+      ng-style="outerStyle"
+      style="width: 33.33%;"
+      zen-width="::1"
+    >
+      <div
+        ng-style="innerStyle"
+      >
+        <div
+          ng-transclude=""
+        />
+      </div>
+    </div>
+    <div
+      class="zen_ui__horizontal_layout_column ng-scope ng-isolate-scope"
+      ng-style="outerStyle"
+      style="width: 33.33%;"
+      zen-width="::1"
+    >
+      <div
+        ng-style="innerStyle"
+      >
+        <div
+          ng-transclude=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

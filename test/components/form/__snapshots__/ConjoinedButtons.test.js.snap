@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`directive: zen-conjoined-buttons should render 1`] = `
+<div
+  class="zen_ui__conjoined_buttons ng-scope"
+  ng-transclude=""
+>
+  <div
+    class="zen_ui__button_container ng-scope ng-isolate-scope"
+    data-stretch="false"
+    ng-class="outerClazz"
+    zen-href="::'___'"
+  >
+    <a
+      class="zen_ui__button"
+      data-palette="ordinary"
+      href="unsafe:___"
+      ng-class="innerClazz"
+      ng-href="___"
+    >
+      <span
+        class="zen_ui__button_text"
+      >
+        <span>
+          <span
+            ng-transclude=""
+          />
+        </span>
+      </span>
+    </a>
+    <div />
+  </div>
+  <div
+    class="zen_ui__button_container ng-scope ng-isolate-scope"
+    data-stretch="false"
+    ng-class="outerClazz"
+    zen-href="::'___'"
+  >
+    <a
+      class="zen_ui__button"
+      data-palette="ordinary"
+      href="unsafe:___"
+      ng-class="innerClazz"
+      ng-href="___"
+    >
+      <span
+        class="zen_ui__button_text"
+      >
+        <span>
+          <span
+            ng-transclude=""
+          />
+        </span>
+      </span>
+    </a>
+    <div />
+  </div>
+  <div
+    class="zen_ui__button_container ng-scope ng-isolate-scope"
+    data-stretch="false"
+    ng-class="outerClazz"
+    zen-href="::'___'"
+  >
+    <a
+      class="zen_ui__button"
+      data-palette="ordinary"
+      href="unsafe:___"
+      ng-class="innerClazz"
+      ng-href="___"
+    >
+      <span
+        class="zen_ui__button_text"
+      >
+        <span>
+          <span
+            ng-transclude=""
+          />
+        </span>
+      </span>
+    </a>
+    <div />
+  </div>
+</div>
+`;

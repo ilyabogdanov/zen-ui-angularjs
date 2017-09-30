@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`directive: zen-modal should render 1`] = `
+<div
+  class="zen_ui__modal ng-scope"
+>
+  <div>
+    <div>
+      <div
+        ng-transclude=""
+      />
+    </div>
+  </div>
+</div>
+`;

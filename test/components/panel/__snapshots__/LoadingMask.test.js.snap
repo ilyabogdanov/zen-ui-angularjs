@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`directive: zen-loading-mask should render 1`] = `
+<div
+  class="zen_ui__loading_mask ng-scope"
+>
+  <div>
+    <div>
+      <span
+        class="zen_ui__loading_mask__text"
+        ng-transclude=""
+      />
+      <div
+        class="zen_ui__loading_mask__animation"
+      >
+        <img
+          alt=""
+          ng-src="assets/img/loading.gif"
+          src="unsafe:assets/img/loading.gif"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

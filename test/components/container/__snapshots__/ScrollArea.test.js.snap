@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`directive: zen-scroll-area should render 1`] = `
+<div
+  class="zen_ui__stretch_margin ng-scope ng-isolate-scope"
+  ng-style="style"
+  ng-transclude=""
+  style="overflow-y: auto"
+/>
+`;

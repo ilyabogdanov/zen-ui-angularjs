@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`directive: zen-path should render 1`] = `
+<div
+  class="zen_ui__path ng-scope"
+>
+  <div>
+    <div
+      ng-transclude=""
+    >
+      <span
+        class="zen_ui__path_item ng-scope ng-isolate-scope"
+        zen-href="::'/'"
+      >
+        <a
+          class="link ng-binding"
+          href="unsafe:/"
+          ng-bind="zenText"
+          ng-href="/"
+        />
+      </span>
+      <span
+        class="zen_ui__path_item ng-scope ng-isolate-scope"
+        zen-sref="::'___'"
+      >
+        <a
+          class="link ng-binding"
+          ng-bind="zenText"
+          ui-sref="___"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;

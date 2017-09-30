@@ -1,0 +1,37 @@
+{
+  "name": "zen-ui-angularjs",
+  "description": "",
+  "version": "0.1.1",
+  "license": "Apache-2.0",
+  "keywords": [],
+  "author": "Ilya Bogdanov <public@ilyabogdanov.ru>",
+  "main": "dist/zen-ui-angularjs.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilyabogdanov/zen-ui-angularjs.git"
+  },
+  "devDependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ng-annotate": "^3.0.0",
+    "jest": "^21.0.1",
+    "jquery": "^3.2.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/*"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/jestSetup.js"
+  }
+}
